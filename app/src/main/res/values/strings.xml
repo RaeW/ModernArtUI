@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Modern Art UI</string>
-
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_more_info">More Information</string>
+    <string name="inspired_by">Inspired by the works of artists such as Leonardo Finotti and Piet Mondrian</string>
+    <string name="learn_more">Click below to learn more!</string>
+    <string name="visit_moma">Visit MOMA</string>
+    <string name="not_now">Not Now</string>
 </resources>

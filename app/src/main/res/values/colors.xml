@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#0fff18</color>
+    <color name="blue">#0a0e4d</color>
+    <color name="yellow">#fffc0f</color>
+    <color name="gray">#dde2f6</color>
+    <color name="red">#e31b01</color>
+    <color name="deep_sky_blue">#00bfff</color>
+    <color name="aquamarine">#7fffd4</color>
+    <color name="dark_orange">#ff8c00</color>
+    <color name="deep_pink">#ff1493</color>
+</resources>
