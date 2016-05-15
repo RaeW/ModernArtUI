@@ -2,7 +2,9 @@ package com.dragonflythicket.modernartui;
 
 import android.animation.ArgbEvaluator;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.Color;
+import android.net.Uri;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -92,7 +94,10 @@ public class MainActivity extends AppCompatActivity {
                     new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            Toast.makeText(getApplicationContext(), "visit Moma", Toast.LENGTH_LONG).show();
+                            String url = getString(R.string.moma_website);
+                            Intent intent = new Intent(Intent.ACTION_VIEW);
+                            intent.setData(Uri.parse(url));
+                            startActivity(intent);
                         }
                     }
             );

@@ -5,4 +5,5 @@
     <string name="learn_more">Click below to learn more!</string>
     <string name="visit_moma">Visit MOMA</string>
     <string name="not_now">Not Now</string>
+    <string name="moma_website">http://www.moma.org/</string>
 </resources>
